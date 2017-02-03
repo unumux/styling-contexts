@@ -1,0 +1,29 @@
+@mixin base() {
+    background-color: #ccc;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #444;
+    color: #444;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.inline-alert {
+    @include base;
+
+    &--positive {
+        @include base;
+
+        background-color: #cfc;
+        border-color: #3a3;
+        color: #3a3;
+    }
+
+    &--negative {
+        @include base;
+
+        background-color: #fcc;
+        border-color: #a20;
+        color: #a20;
+    }
+}

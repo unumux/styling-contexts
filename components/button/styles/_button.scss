@@ -1,0 +1,35 @@
+@mixin base() {
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    min-width: 100px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+
+    &:hover {
+        opacity: 0.9;
+    }
+
+    &:active {
+        transform: scale(0.98);
+    }
+}
+
+.button {
+    @include base;
+
+    background-color: #333;
+
+    &--positive {
+        @include base;
+
+        background-color: #3a3;
+    }
+
+    &--negative {
+        @include base;
+
+        background-color: #a20;
+    }
+}

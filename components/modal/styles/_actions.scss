@@ -1,0 +1,11 @@
+@mixin base() {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin-top: 20px;;
+}
+
+&__actions {
+    @include base;
+}

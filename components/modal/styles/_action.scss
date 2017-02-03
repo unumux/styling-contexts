@@ -1,0 +1,7 @@
+@mixin base() {
+    margin-left: 10px;
+}
+
+&__action {
+    @include base;
+}
