@@ -1,0 +1,18 @@
+@mixin base() {
+    background-color: $c-em-background-color;
+    color: $c-inverse-text-color;
+    padding: 10px 20px;
+    margin: 50px auto;
+    max-width: 700px;
+}
+
+.modal {
+    @include base;
+
+    @import "heading";
+    @import "content";
+    @import "action-list";
+    @import "action";
+
+    @import "context";
+}

@@ -1,0 +1,9 @@
+@mixin base() {
+    list-style: none;
+    padding: 0;
+    text-align: right;
+}
+
+&__action-list {
+    @include base;
+}

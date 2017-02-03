@@ -1,0 +1,34 @@
+$c-background-color: $color-background !default;
+$c-em-background-color: $color-background-em !default;
+
+$c-text-color: $color-text-light !default;
+$c-inverse-text-color: $color-text-dark !default;
+$c-link-color: $color-link-light !default;
+$c-inverse-link-color: $color-link-dark !default;
+
+$c-inline-alert-bg-color: $color-feedback !default;
+$c-inline-alert-positive-bg-color: $color-feedback-positive !default;
+
+$c-clickable-background-color: $color-action !default;
+$c-clickable-border-color: $color-border-dark !default;
+$c-clickable-text-color:  $color-text-dark !default;
+
+$c-clickable-hover-background-color: $color-action-hover !default;
+$c-clickable-hover-border-color: $color-border-dark !default;
+$c-clickable-hover-text-color: $color-text-dark !default;
+
+$c-clickable-active-background-color: $color-action-active !default;
+$c-clickable-active-border-color: $color-border-dark !default;
+$c-clickable-active-text-color: $color-text-dark !default;
+
+$c-clickable-positive-background-color: $color-action-positive !default;
+$c-clickable-positive-border-color: transparent !default;
+$c-clickable-positive-text-color:  $color-text-light !default;
+
+$c-clickable-positive-hover-background-color: $color-action-positive-hover !default;
+$c-clickable-positive-hover-border-color: $color-border-dark !default;
+$c-clickable-positive-hover-text-color: $color-text-dark !default;
+
+$c-clickable-positive-active-background-color: $color-action-positive-active !default;
+$c-clickable-positive-active-border-color: $color-border-dark !default;
+$c-clickable-positive-active-text-color: $color-text-dark !default;

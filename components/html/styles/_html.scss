@@ -1,0 +1,13 @@
+@mixin base() {
+    margin: 20px 0;
+}
+
+.html {
+    @include base;
+
+    // .modal & {
+    //     a {
+    //         color: $c-inverse-link-color;
+    //     }
+    // }
+}

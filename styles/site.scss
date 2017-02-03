@@ -1,8 +1,55 @@
-* {
-    box-sizing: border-box;
+@import "./theme/index";
+@import "./components/index";
+
+
+
+@mixin alert-base() {
+    border-radius: 3px;
+    padding: 5px;
+    text-align: center;
+}
+.alert {
+    @include alert-base();
+    
+    background-color: $c-inline-alert-bg-color;
+    color: $c-inverse-text-color;  
+
+    &--positive {
+        @include alert-base();
+
+        background-color: $c-inline-alert-positive-bg-color;
+        color: $c-inverse-text-color;  
+    }
 }
 
-body {
-    background: #dedede;
-    color: #111;
+
+
+
+@mixin button-base() {
+    border-radius: 0.3rem;
+    cursor: pointer;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.button {
+    @include button-base();
+    
+    background-color: $c-clickable-background-color;
+    border: 1px solid $c-clickable-border-color;
+    color: $c-clickable-text-color;
+    
+
+    &--positive {
+        @include button-base();
+        background-color: $c-clickable-positive-background-color;
+        color: $c-clickable-positive-text-color;
+        border: 1px solid $c-clickable-positive-border-color;
+    }    
 }

@@ -1,0 +1,7 @@
+@mixin base() {
+    display: inline-block;
+}
+
+&__action {
+    @include base;
+}
